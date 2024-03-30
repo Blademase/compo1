@@ -1,0 +1,106 @@
+#FirstHeader{
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding-top: 20px;
+    gap: 1vw;
+    justify-content: center;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-top: 10px;
+}
+#SearchBar{
+    display: flex;
+    position: relative;
+    width: 44.5vw;
+    align-items: center;
+}
+ input{
+    display: flex;
+    width: 100%;
+    height: 36px;
+   border-radius: 6px;
+   border: solid 1px #E2E4F0;;
+   padding-left: 1vw;
+   font-size: 16px;
+   
+}
+#SearchBar input:focus {
+outline: solid 1px #1551E5;
+
+}
+
+#SearchBar input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+#InputIcons{
+    position: absolute;
+   right:  10px;
+   align-items: center;;
+   cursor: pointer;
+}
+#InputIcons img{
+    cursor: pointer;
+}
+#AccountBar{
+    display: flex;
+    gap: 3vw;
+}
+#Logo{
+    position: relative;
+    left: 0;
+    width: 124px;
+    height: 24px;
+}
+#MenuButton{
+    display: flex;
+    align-items: center;
+    width: 8vw;
+    justify-content: center;
+    gap:1vw;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #1551E5;
+    font-size: 16px;
+    cursor: pointer;
+}
+#NotificationNonLikeIcon{
+    display: flex;
+    height: 30px;
+    gap:1vw;
+}
+#NotificationNonLikeIcon img{
+cursor: pointer;
+}
+#ShopBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.7vw;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #F2F6FF;
+    width: 9vw;
+    color: #1551E5;
+    font-size: 16px;
+    font-weight: 500;
+}
+#AvatarBar{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+    font-size: 16px;    
+    font-weight: 500;
+}
+#BtnVerticalLine{
+
+    border-left: 1px solid #E2E4F0;
+    height: 35px;
+}
+
+#AvatarDownIcon{
+    cursor: pointer;
+}

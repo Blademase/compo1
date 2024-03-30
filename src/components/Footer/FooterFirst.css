@@ -1,0 +1,53 @@
+#FooterFirst{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    width: 97%;
+    margin-left: 1.5%;
+}
+#FirstFooterFirstRow{
+    display: flex;
+   gap: 3vw;
+   padding-left: 3vw;
+}
+#FirstFooterFirstRowText1,#FirstFooterFirstRowText2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#FooterFirstContent{
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+.FirstFooterFirstRowMainText{
+    color: #050D23;
+    font-size: 16px;
+    font-weight: 700;
+}
+.FirstFooterFirstRowMinorText{
+    color: #77829E;
+    font-size: 12px;
+    font-weight: 400;
+}
+#SecondFooterFirstRow{
+    display: flex;
+    /* gap: 30px; */
+}
+#SecondFooterFirstRow button{
+    border: none;
+    background: none;
+    color: #071435;
+    font-size: 16px;
+    font-weight: 700; 
+    width: auto;
+    padding: 16px 20px;
+}
+
+#SecondFooterFirstRow button:hover{
+    background-color: #F2F6FF;
+    color:#1551E5;
+ 
+}

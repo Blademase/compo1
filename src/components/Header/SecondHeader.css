@@ -1,0 +1,45 @@
+
+#SecondHeader{
+display: flex;
+position: relative;
+justify-content: space-between;
+width: 97%;
+margin-left: 1.5%;
+}
+#MenuBtns button{
+   outline: none;
+   border: none;
+   background: none;
+   font-size: 14px;
+   font-weight: 500;
+   padding: 0;
+
+}
+
+#MenuBtns{
+    display: flex;
+    gap: 1.2vw;
+    
+}
+#ManagerSaleBlog{
+    display: flex;
+    width: 20vw;
+    gap: 1vw;
+}
+#ManagerSaleBlog button{
+display: flex;
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 0.4vw;
+    height: 24px;
+    align-items: center;
+    border-radius: 6px;
+     color: #1551E5;
+}
+#ManagerSaleBlog :first-child{
+    background-color: #F2F6FF;
+    
+}

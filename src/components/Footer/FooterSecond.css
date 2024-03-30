@@ -1,0 +1,34 @@
+#FooterSecond{
+    width: 97%;
+margin-left: 1.5%;
+
+}
+#FooterSecondContent{
+display: flex;
+width: 80%;
+justify-content: space-between;
+}
+.FooterSecondColumn{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.FooterSecondColumn button{
+    background: none;
+    border: none;
+    text-align: left;
+}
+.FooterSecondColumnMainText {
+    font-size: 16px;
+    font-weight: 600;
+    color: #050D23;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.FooterSecondColumnMinorText{
+    font-size: 14px;
+    font-weight: 100;
+    color: #050D23;
+    padding-top: 20px;
+    cursor: pointer;
+}
